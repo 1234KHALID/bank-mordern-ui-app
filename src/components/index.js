@@ -1,4 +1,5 @@
 import Navbar from './navbar';
 import Hero from './hero';
+import Stats from './stats';
 
-export { Navbar, Hero };
+export { Navbar, Hero, Stats };

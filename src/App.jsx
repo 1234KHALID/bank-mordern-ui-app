@@ -1,5 +1,5 @@
 import styles from './styles';
-import { Hero, Navbar } from './components';
+import { Hero, Navbar, Stats } from './components';
 
 function App() {
   return (
@@ -17,7 +17,9 @@ function App() {
       </div>
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>{/* stats */}</div>
+        <div className={`${styles.boxWidth}`}>
+          <Stats />
+        </div>
       </div>
     </div>
   );
