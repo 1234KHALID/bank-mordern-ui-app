@@ -3,5 +3,6 @@ import Hero from './hero';
 import Stats from './stats';
 import Business from './business';
 import Billing from './billing';
+import CardDeal from './card-deal';
 
-export { Navbar, Hero, Stats, Business, Billing };
+export { Navbar, Hero, Stats, Business, Billing, CardDeal };
