@@ -1,5 +1,5 @@
 import styles from './styles';
-import { Navbar } from './components';
+import { Hero, Navbar } from './components';
 
 function App() {
   return (
@@ -11,7 +11,9 @@ function App() {
       </div>
 
       <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>{/* hero */}</div>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
+        </div>
       </div>
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
