@@ -1,5 +1,5 @@
 import styles from './styles';
-import { Hero, Navbar, Stats } from './components';
+import { Hero, Navbar, Stats, Business } from './components';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
+          <Business />
         </div>
       </div>
     </div>
