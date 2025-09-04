@@ -5,5 +5,6 @@ import Business from './business';
 import Billing from './billing';
 import CardDeal from './card-deal';
 import Testimonials from './testimonials'
+import Clients from './clients'
 
-export { Navbar, Hero, Stats, Business, Billing, CardDeal , Testimonials};
+export { Navbar, Hero, Stats, Business, Billing, CardDeal , Testimonials, Clients};
