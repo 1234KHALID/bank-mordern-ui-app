@@ -6,5 +6,6 @@ import Billing from './billing';
 import CardDeal from './card-deal';
 import Testimonials from './testimonials'
 import Clients from './clients'
+import CTA from './cta'
 
-export { Navbar, Hero, Stats, Business, Billing, CardDeal , Testimonials, Clients};
+export { Navbar, Hero, Stats, Business, Billing, CardDeal , Testimonials, Clients, CTA};

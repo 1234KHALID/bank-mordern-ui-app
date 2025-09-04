@@ -8,6 +8,7 @@ import {
   CardDeal,
   Testimonials,
   Clients,
+  CTA,
 } from "./components";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <CardDeal />
           <Testimonials />
           <Clients />
+          <CTA />
         </div>
       </div>
     </div>
