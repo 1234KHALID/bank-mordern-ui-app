@@ -9,6 +9,7 @@ import {
   Testimonials,
   Clients,
   CTA,
+  Footer,
 } from "./components";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Testimonials />
           <Clients />
           <CTA />
+          <Footer />
         </div>
       </div>
     </div>

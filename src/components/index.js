@@ -7,5 +7,6 @@ import CardDeal from './card-deal';
 import Testimonials from './testimonials'
 import Clients from './clients'
 import CTA from './cta'
+import Footer from './footer'
 
-export { Navbar, Hero, Stats, Business, Billing, CardDeal , Testimonials, Clients, CTA};
+export { Navbar, Hero, Stats, Business, Billing, CardDeal , Testimonials, Clients, CTA, Footer};
